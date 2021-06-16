@@ -47,7 +47,7 @@ app.use(
     // 👇 add this 👇
   authorizationParams: {
    response_type: "code id_token",
-   audience: "https://expenses-api"
+   audience: "https://expenses-api",
   },
   // 👆 add this 👆
   })
